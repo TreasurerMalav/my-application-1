@@ -21,6 +21,6 @@ provider "aws" {
   region  = "ap-south-1"
 }
 
-resource "aws_s3_bucket" "test-bucket" {
-  bucket = "my-tf-test-bucket"
+resource "aws_s3_bucket" "tmc-app-bucket" {
+  bucket = "tmc-app-bucket"
 }
