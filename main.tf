@@ -21,11 +21,6 @@ provider "aws" {
   region  = "ap-south-1"
 }
 
-resource "aws_instance" "app_server" {
-  ami           = "ami-022ce6f32988af5fa"
-  instance_type = "t2.micro"
-
-  tags = {
-    Name = "AppServer"
-  }
+resource "aws_s3_bucket" "test-bucket" {
+  bucket = "my-tf-test-bucket"
 }
