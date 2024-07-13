@@ -20,7 +20,3 @@ terraform {
 provider "aws" {
   region  = "ap-south-1"
 }
-
-resource "aws_s3_bucket" "tmc-app-bucket" {
-  bucket = "tmc-app-bucket"
-}
