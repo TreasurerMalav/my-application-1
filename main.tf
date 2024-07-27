@@ -22,5 +22,5 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "tmc-app-bucket" {
-  bucket = "tmc-app-bucket"
+  bucket = "tmc-app-bucket-27-07-2024"
 }
