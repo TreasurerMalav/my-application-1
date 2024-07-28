@@ -32,3 +32,7 @@ resource "aws_s3_bucket" "tmc-app-bucket-4" {
 resource "aws_s3_bucket" "tmc-app-bucket-5" {
   bucket = "tmc-app-bucket-5-27-07-2024"
 }
+
+resource "aws_s3_bucket" "tmc-app-bucket-6" {
+  bucket = "tmc-app-bucket-6-27-07-2024"
+}
