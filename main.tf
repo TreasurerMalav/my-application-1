@@ -34,5 +34,5 @@ resource "aws_s3_bucket" "tmc-app-bucket-5" {
 }
 
 resource "aws_s3_bucket" "tmc-app-bucket-6" {
-  bucket = "tmc-app-bucket-6-27-07-2023"
+  bucket = "tmc-app-bucket-6-27-07-2024"
 }
